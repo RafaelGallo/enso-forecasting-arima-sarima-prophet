@@ -289,7 +289,7 @@ with open("models/prophet_lags_fitted.pkl", "rb") as f:
 **Rafael Gallo**
 - Kaggle: [Rafael Gallo](https://www.kaggle.com/rafaelgallo)
 - GitHub: [@RafaelGallo](https://github.com/RafaelGallo)
-- Instagram: [@Rafael Gallo](https://instagram.com/Rafael Gallo)
+- Instagram: [@Rafael Gallo]([https://instagram.com/Rafael Gallo](https://www.instagram.com/gallorafael_2/))
 
 ## 📄 License
 
