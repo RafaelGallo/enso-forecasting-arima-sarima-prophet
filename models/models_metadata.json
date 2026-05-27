@@ -1,0 +1,72 @@
+{
+    "arima": {
+        "model_type": "ARIMA",
+        "order": [
+            2,
+            0,
+            0
+        ],
+        "aic": -123.5405,
+        "bic": -106.243,
+        "train_start": "1980-01",
+        "train_end": "2026-06",
+        "n_obs": 558,
+        "target": "sst_anom_nino34",
+        "fitted_file": "models/arima_200_fitted.pkl",
+        "walk_forward_metrics": {
+            "t1": {
+                "rmse": 0.3365,
+                "f1_macro": 0.7539,
+                "skill_score": 0.7375
+            },
+            "t3": {
+                "rmse": 0.5176,
+                "f1_macro": 0.5772,
+                "skill_score": 0.6007
+            },
+            "t6": {
+                "rmse": 0.7348,
+                "f1_macro": 0.3996,
+                "skill_score": 0.4423
+            }
+        }
+    },
+    "sarima": {
+        "model_type": "SARIMA",
+        "order": [
+            2,
+            0,
+            0
+        ],
+        "seasonal_order": [
+            2,
+            0,
+            0,
+            12
+        ],
+        "aic": -124.3653,
+        "bic": -102.9821,
+        "train_start": "1980-01",
+        "train_end": "2026-06",
+        "n_obs": 558,
+        "target": "sst_anom_nino34",
+        "fitted_file": "models/sarima_200x200_12_fitted.pkl",
+        "walk_forward_metrics": {
+            "t1": {
+                "rmse": 0.3355,
+                "f1_macro": 0.7622,
+                "skill_score": 0.7383
+            },
+            "t3": {
+                "rmse": 0.5111,
+                "f1_macro": 0.5974,
+                "skill_score": 0.6057
+            },
+            "t6": {
+                "rmse": 0.7226,
+                "f1_macro": 0.3127,
+                "skill_score": 0.4516
+            }
+        }
+    }
+}
