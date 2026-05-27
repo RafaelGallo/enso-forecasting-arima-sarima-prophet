@@ -7,6 +7,8 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-20BEFF?logo=kaggle)
 
+![](https://github.com/RafaelGallo/enso-forecasting-arima-sarima-prophet/blob/main/img/log1.png?raw=true)
+
 ## 📋 Overview
 
 This project builds and evaluates classical time series models for
